@@ -1,0 +1,177 @@
+ [ {
+        "category": "Symptoms",
+        "id": "s_1",
+        "image_source": "Wikimedia Commons",
+        "image_url": "http://static.doktor-medi.pl/images/s_zmarszczenie_wciagniecie_skory_na_piersi.png",
+        "name": "Nasal Congestion",
+        "sex_filter": "both"
+    },
+    {
+        "category": "Symptoms",
+        "id": "s_2",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Runny Nose",
+        "sex_filter": "both"
+    },
+    {
+        "category": "Symptoms",
+        "id": "s_3",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Mild Cough",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_4",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Mild Fever",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_5",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Sore Throat"",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_6",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Difficulty Swallowing",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_7",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Nausea"",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_8",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Stomach Pain/Discomfort",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_9",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Loss of appetite",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_10",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Vomiting",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_11",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Stomach Cramps",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_12",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Diarrhoea",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_13",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Muscle Pain",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_14",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Joint Pain",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_15",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Headache (front of head into neck)",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_16",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Headache (specific location)",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_17",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Sudden Head Throbbing",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_18",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Sudden Pain (in toes)",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_19",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Eye Redness",
+        "sex_filter": "both"
+    },
+    {
+        "category": "Signs and symptoms",
+        "id": "s_20",
+        "image_source": "null",
+        "image_url": "null",
+        "name": ("Gritty Feeling in Eye"),
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_21",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Itchy Eye",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Symptoms",
+        "id": "s_22",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Blisters around lips",
+        "sex_filter": "both"
+    }
+]

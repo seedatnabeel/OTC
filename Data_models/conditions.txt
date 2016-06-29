@@ -1,0 +1,97 @@
+ [ {
+        "category": "Conditions",
+        "id": "c_1",
+        "image_source": "Wikimedia Commons",
+        "image_url": "http://static.doktor-medi.pl/images/s_zmarszczenie_wciagniecie_skory_na_piersi.png",
+        "name": "Common Cold",
+        "sex_filter": "both"
+    },
+    {
+        "category": "Conditions",
+        "id": "c_2",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Sore Throat (Pharyngitis)",
+        "sex_filter": "both"
+    },
+    {
+        "category": "Conditions",
+        "id": "c_3",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Heartburn/Indigestion(Gastritis)",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Conditions",
+        "id": "c_4",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Gastric Flu",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Conditions",
+        "id": "c_5",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Stomach Flu/Inflammation(Gastroenteritis)",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Conditions",
+        "id": "c_6",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Muscle Pain",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Conditions",
+        "id": "c_7",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Joint Pain",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Conditions",
+        "id": "c_8",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Headache",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Conditions",
+        "id": "c_9",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Migraine",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Conditions",
+        "id": "c_10",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Pinkeye (Eye Conjunctivitis)",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Conditions",
+        "id": "c_11",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Fever Blisters",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Conditions",
+        "id": "c_12",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Sudden Gout Attack ",
+        "sex_filter": "both"
+    }
+]

@@ -1,0 +1,123 @@
+ [ {
+        "category": "Treatments",
+        "id": "t_1",
+        "image_source": "Wikimedia Commons",
+        "image_url": "http://static.doktor-medi.pl/images/s_zmarszczenie_wciagniecie_skory_na_piersi.png",
+        "name": "Panado",
+        "sex_filter": "both"
+    },
+    {
+        "category": "Treatments",
+        "id": "t_2",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Flutex",
+        "sex_filter": "both"
+    },
+    {
+        "category": "Treatments",
+        "id": "t_3",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Strepsils",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_4",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Andolex",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_5",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Losec",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_6",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Gaviscon",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_7",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Altosec",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_8",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Maxolon",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_9",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Immodium",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_10",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Rehydrate",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_11",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Voltaren",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_12",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Migral",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_13",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Colchicine",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_14",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Chloromycetin Eye Ointment",
+        "sex_filter": "both"
+    },
+	{
+        "category": "Treatments",
+        "id": "t_15",
+        "image_source": "null",
+        "image_url": "null",
+        "name": "Zovirax",
+        "sex_filter": "both"
+    }
+]
+
+
