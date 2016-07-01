@@ -6,7 +6,11 @@ class Symptoms(models.Model):
 class Post(models.Model):
     title=models.CharField(max_length=128)
     content=models.TextField()
-    box = models.BooleanField()
+    Cough = models.BooleanField()
+    Fever = models.BooleanField()
+    Runny_Nose = models.BooleanField()
+    Muscle_Pain = models.BooleanField()
+
 
 
     def __unicode__(self):

@@ -2,7 +2,10 @@ from django import forms
 from music.models import Post
 
 class PostForm(forms.ModelForm):
-    box = forms.BooleanField()
+    Cough = forms.BooleanField()
+    Fever = forms.BooleanField()
+    Runny_Nose = forms.BooleanField()
+    Muscle_Pain = forms.BooleanField()
 
     class Meta:
         model =Post

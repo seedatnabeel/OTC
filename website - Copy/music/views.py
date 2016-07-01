@@ -4,11 +4,12 @@ from .models import Symptoms
 from .forms import PostForm
 
 def index(request):
-    all_symptoms = Symptoms.objects.all()
-    context = {'all_symptoms' : all_symptoms,}
+    #all_symptoms = Symptoms.objects.all()
+    #context = {'all_symptoms' : all_symptoms,}
     form=PostForm(request.POST or None)
-    #if request.method=="POST":
-     #   print(request.POST.get("content"))
+    debug = request.POST.getlist('checks')
+    print(debug)
+
     context = {
         "form":form,
     }
