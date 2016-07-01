@@ -1,0 +1,23 @@
+{% extends 'symptoms/base.html' %}
+
+
+{% block body %}
+    <h3>Here are all the Symptoms</h3>
+
+    {% if all_symptoms %}
+
+        {% for symptom in all_symptoms %}
+            <input type="checkbox">  {{ symptom.sympt }}<br>
+        {% endfor %}
+
+        <form action="#" method="get">
+         <input type="submit" class="btn" value="Click" name="mybtn">
+        </form>
+
+   <!---     <input type="button" value="Submit" /> <br/>
+        <a href="/causes/">C</a>
+   -->
+    {% else %}
+        <h3>There are no symptoms</h3>
+    {% endif %}
+{% endblock %}
