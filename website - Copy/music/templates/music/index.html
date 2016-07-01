@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}" />
+
+<nav class="navbar navbar-inverse">
+    <div class=""container-fluid>
+        <!-- Logo -->
+        <div class="navbar-header">
+            <a class="navbar-brand"> OTC </a>
+        </div>
+    </div>
+</nav>
+
+<h3>Here are all the Symptoms</h3>
+{% if all_symptoms %}
+
+        {% for symptom in all_symptoms %}
+            <input type="checkbox">  {{ symptom.sympt }}<br>
+        {% endfor %}
+
+
+    {% if error_message %}
+        <p><strong>{{ error_message }}</strong></p>
+    {% endif %}
+
+
+{% else %}
+    <h3>There are no symptoms</h3>
+{% endif %}
+
+
