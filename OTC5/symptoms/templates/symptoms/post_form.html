@@ -1,0 +1,49 @@
+{% extends 'symptoms/base.html' %}
+
+{% block body %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<h1>Symptoms Page</h1>
+<form method="post" >{% csrf_token %}
+    # General</br>
+<input type='checkbox' name="checks[]" value="s_156"> Nausea </br>
+<input type='checkbox' name="checks[]" value="s_102"> Body Aches </br>
+<input type='checkbox' name="checks[]" value="s_102"> Chills and Sweats </br>
+<input type='checkbox' name="checks[]" value="s_102"> Fatigue</br></br>
+    # Head</br>
+<input type='checkbox' name="checks[]" value="s_107"> Runny Nose </br>
+<input type='checkbox' name="checks[]" value="s_107"> Sore Throat </br>
+<input type='checkbox' name="checks[]" value="s_102"> Cough </br>
+<input type='checkbox' name="checks[]" value="s_331"> Nasal Congestion </br>
+<input type='checkbox' name="checks[]" value="s_98"> Headache </br>
+<input type='checkbox' name="checks[]" value="s_98"> Sneezing </br>
+<input type='checkbox' name="checks[]" value="s_98"> Fever </br>
+<input type='checkbox' name="checks[]" value="s_98"> Eye Redness </br>
+<input type='checkbox' name="checks[]" value="s_98"> Eye Itchiness </br>
+<input type='checkbox' name="checks[]" value="s_98"> Eye Gritty </br>
+<input type='checkbox' name="checks[]" value="s_98"> Eye Discharge </br>
+<input type='checkbox' name="checks[]" value="s_98"> Eye Tearing </br>
+<input type='checkbox' name="checks[]" value="s_98"> Itchy Nose, Roof of Mouth, Throat </br>
+<input type='checkbox' name="checks[]" value="s_98"> Eye Swollen </br>
+<input type='checkbox' name="checks[]" value="s_98"> Postnasal Drip </br>
+<input type='checkbox' name="checks[]" value="s_98"> Mucus White </br>
+<input type='checkbox' name="checks[]" value="s_98"> Mucus Green/Yellow </br></br>
+
+    # Chest</br>
+<input type='checkbox' name="checks[]" value="s_98"> Heartburn </br>
+<input type='checkbox' name="checks[]" value="s_98"> Regurgitation </br></br>
+    # Abdomen</br>
+<input type='checkbox' name="checks[]" value="s_98"> Indigestion </br>
+<input type='checkbox' name="checks[]" value="s_98"> Diarrhoea </br>
+<input type='checkbox' name="checks[]" value="s_98"> Abdominal Cramps </br></br>
+    # Limbs</br>
+<input type='checkbox' name="checks[]" value="s_98"> Sore Joint </br>
+<input type='checkbox' name="checks[]" value="s_98"> Sore Muscles </br></br>
+<input type='submit' value='Submit' /> </br></br></br></br></br>
+
+</body>
+</html>
+{% endblock %}
