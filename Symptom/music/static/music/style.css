@@ -1,0 +1,9 @@
+li a {
+    color: green;
+}
+
+body{
+    height: 0.1%; width: 0.1%;
+
+ background: white url("images/back.jpg") no-repeat left top;
+}

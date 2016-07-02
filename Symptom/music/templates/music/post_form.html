@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+<h1>Symptoms Page</h1>
+<form method="post">{% csrf_token %}
+<input type='checkbox' name="checks[]" value="s_102"> Cough
+<input type='checkbox' name="checks[]" value="s_107"> Runny Nose
+<input type='checkbox' name="checks[]" value="s_331"> Nasal Congestion
+<input type='checkbox' name="checks[]" value="s_98"> Fever
+<input type='submit' value='Submit' />
+
+</form>
+
+</body>
+
+</html>
