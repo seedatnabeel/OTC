@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+</head>
+<body>
+
+</body>
+</html>
+
+{% extends 'symptoms/base.html' %}
+{% block title %} Causes {% endblock %}
+
+{% block body %}
+    <h3>Here are all the Causes</h3>
+
+    <li>
+        {{ first_cause }} &#09 {{ first_prob }} </br>
+        {{ second_cause}} {{ second_prob }} </br>
+        {{ third_cause }} {{ third_prob }}
+    </li>
+
+{% endblock %}
+
