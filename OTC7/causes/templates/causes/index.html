@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Causes</title>
+</head>
+<body>
+
+</body>
+</html>
+
+{% extends 'symptoms/base.html' %}
+{% block title %} Causes {% endblock %}
+
+{% block body %}
+    <h1>Here are the possible causes</h1></br>
+    <h2>Choose an option below</h2></br></br>
+
+
+    <table style="width:50%">
+        <tr>
+            <td><a href= {{ first_cause1}} > {{ first_cause }} </a> </td><td> {{ first_prob }}%
+        </tr>
+
+        <tr>
+            <td><a href= {{ second_cause1}} > {{ second_cause }} </a> </td><td> {{ second_prob }}%
+        </tr>
+
+        <tr>
+            <td><a href= {{ third_cause1}} > {{ third_cause }} </a> </td><td> {{ third_prob }}%
+        </tr>
+        </table>
+
+        </tr>
+{% endblock %}
+
