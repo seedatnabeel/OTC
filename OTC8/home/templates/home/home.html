@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OTCsa-Home-Cough..Click..All Better</title>
+</head>
+<body>
+
+</body>
+</html>
+
+{% extends 'symptoms/base.html' %}
+{% load staticfiles %}
+{% block title %} Homepage {% endblock %}
+
+{% block body %}
+    <h1>This is the Homepage</h1></br>
+
+    <img class="displayed" src="static/home/images/home.jpg" alt="My image"/> </br></br></br>
+
+    <a href = "/symptoms/">
+        <img src="static/home/images/sym.jpg" alt="My image2"/>
+    </a>
+
+    <a href = "/treatment/">
+        <img src="static/home/images/loi.jpg" alt="My image3"/>
+    </a>
+
+    <a href = "/about/">
+        <img src="static/home/images/about.jpg" alt="My image4"/>
+    </a>
+
+    </br></br></br></br></br></br></br></br></br>
+
+    <h4> About </h4> </br>
+
+    <h5>Aim</h5>
+    OTC aims to be the simplest and most user-friendly self-diagnosing medical application where users can quickly and easily identify mild illnesses. It is planned that this application is backed by doctors. Treatment is also provided with over-the-counter (OTC) medication if the condition is safe to be self-treated. This will save people time so they can be more productive with their days.
+
+OTC is user friendly for anyone to use, but kids probably get Mum or Dad to do it for you.
+
+    </br></br></br>
+
+    <h5>Contact</h5>
+    <h6> email: otc.info@mail.com </h6></br>
+    <h5>The Team</h5>
+
+    </br></br></br>
+
+{% endblock %}
+
