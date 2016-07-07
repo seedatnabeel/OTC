@@ -1,0 +1,163 @@
+/*
+li a {
+    color: green;
+} */
+/*
+body{
+    height: 100%; width: 100;
+
+    background: white url("images/back.jpg") no-repeat left top;
+}*/
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h1 {
+    font-size: 24pt;
+    font-family: Calibri;
+    text-indent: 50px;
+}
+
+h2 {
+    font-size: 12pt;
+    text-indent: 50px;
+    font-family: Calibri;
+}
+
+h3 {
+    font-size: 16pt;
+    font-family: Calibri;
+    text-indent: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 18pt;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h5 {
+    font-size: 18pt;
+    text-indent: 150px;
+}
+
+h6 {
+    text-align: center;
+}
+
+h7 {
+    font-size: 10pt;
+    font-family: Calibri;
+    text-indent: 50px;
+}
+
+ul {
+    padding-left: 170px;
+}
+
+b {
+    background: #F8F8F8;
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 0px;
+}
+
+#header {
+    background-color: #F8F8F8;
+    color: black;
+    padding: 24px;
+    font-family: Calibri;
+    text-align: center;
+}
+
+body {
+    /*background: white url("images/ow2.jpg") center;*/
+    background: white;
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    border-bottom: solid 75px #000000;
+}
+
+p
+{
+display:inline-block;
+}
+
+q {
+    padding-right: 50px;
+}
+
+/*
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #262626;
+   text-decoration: none;
+  background-color: #66CCFF;  /*change color of links in drop down here*/
+
+.navbar-static-top .navbar-nav > li > a:hover, .navbar-static-top .navbar-nav > li > a:focus {
+color: white;  /*Sets the text hover color on navbar*/
+
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 18px;
+    display: inline;
+}
+
+.navbar-static-top .navbar-nav > li > a {
+color: black; /*Change active text color here*/
+font-size: 18px;
+    }
+
+.navbar-static-top {
+    background-color: white;
+    font-family: Calibri;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 100px;
+    height: 60px;
+    padding-top: 0;
+}
+
+a {
+    font-size: 16pt;
+    text-align: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+i {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+    font-family: Calibri;
+    font-size: 14pt;
+}
+
+c {
+    font-size: 16pt;
+
+}

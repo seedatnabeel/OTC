@@ -1,0 +1,98 @@
+/*
+li a {
+    color: green;
+} */
+/*
+body{
+    height: 100%; width: 100;
+
+    background: white url("images/back.jpg") no-repeat left top;
+}*/
+
+    img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+h1 {
+    font-size: 24pt;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20pt;
+    text-align: center;
+    text-decoration: underline;
+}
+
+body {
+    background: white url("images/ow2.jpg") center;
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    border-bottom: solid 75px #000000;
+    padding-top: 1px;
+}
+
+/*
+p {
+    border-style: solid;
+    border-left: thick double 15px;
+}
+*/
+
+/*
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #262626;
+   text-decoration: none;
+  background-color: #66CCFF;  /*change color of links in drop down here*/
+
+/*
+#nav {
+ min-height:0.000001px;
+}
+
+.span-logo {
+display: inline-block;
+vertical-align: top;
+height: 0.000001px;
+width: 0.000001px;
+}
+*/
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #000000;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > li > a {
+color: white; /*Change active text color here*/
+    }
+
+.navbar-default {
+    background-color: dodgerblue;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 100px;
+    height: 100px;
+    padding-top: 0;
+}
+
+a {
+    font-size: 16pt;
+    text-align: right;
+}

@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Symptom Checker</title>
+</head>
+<body>
+
+</body>
+</html>
+
+{% extends 'symptoms/base.html' %}
+
+
+{% block body %}
+    <h1>Symptom Checker</h1>
+
+    {% if all_symptoms %}
+
+        {% for symptom in all_symptoms %}
+            <input type="checkbox">  {{ symptom.sympt }}<br>
+        {% endfor %}
+
+        <form action='/causes/' method="get">
+             <input type="submit"  value="Submit" name="mybtn">
+        </form>
+
+    {% else %}
+        <h1>There are no symptoms</h1>
+    {% endif %}
+{% endblock %}
+
+<!--- <input type="checkbox" name="sport" value="Football" id="Football" /> <label for="Football"> Football </label> -->
